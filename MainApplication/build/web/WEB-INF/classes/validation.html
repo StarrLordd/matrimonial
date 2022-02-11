@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Ammit Tripsthi</title>
+<script>
+function amit()
+{
+var a=document.getElementById("sm");
+var c=document.getElementById("sp");
+var b=a.value;
+if(b.length<=5)
+{
+   a.style.border="2px solid red";
+   a.style.outline="none";
+   c.innerHTML="Invalid name"
+   c.style.color="red";
+}
+else
+
+{
+   a.style.border="2px solid green";
+   c.innerHTML=""
+   a.style.outline="none";
+}
+}
+</script>
+</head>
+<body>
+<input type="text" onkeypress="amit()" onfocus="amit()" onkeyup="amit()" id="sm" placeholder="Enter YOur NAme"/>
+<span id="sp"></span>
+<a href="mailto:amittripathi2233@gmail.com">mIL</a>
+</body>
+</html>
